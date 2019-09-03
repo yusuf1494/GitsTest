@@ -21,9 +21,9 @@ public class Project {
 	public static void main(String[] args) {
 		int[] socks = {10, 20, 20, 10, 10, 30, 50, 10, 20};
 		System.out.println(sockCouple(socks) + " Pasang kaos kaki");
-//		int[] toys = {1, 12, 5, 111, 200, 1000, 10};
-		int[] toys = {1,2,3,4};
-		System.out.println(buyToys(toys, 7) + " buah mainan yang dibeli");
+		int[] toys = {1, 12, 5, 111, 200, 1000, 10};
+//		int[] toys = {1,2,3,4};
+		System.out.println(buyToys(toys, 50) + " buah mainan yang dibeli");
 	}
 
 	private static int sockCouple(int[] socks) {
